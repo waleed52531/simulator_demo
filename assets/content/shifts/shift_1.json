@@ -1,0 +1,270 @@
+{
+  "id": "standard-01",
+  "shiftNumber": 1,
+  "title": "First Shift: Initial Contact",
+  "onScreenMessage": "To perform at your best, before you begin this shift, watch these short Great Tips videos: Initial Contact 1 and 2. These videos will give you the phrases, techniques, and strategies to make better decisions, improve the guest experience, and earn more, both in the game and on the floor. Watch now. Then play the shift.",
+  "startingTipMeter": 50,
+  "scenes": [
+    {
+      "id": "standard-01-001",
+      "shiftNumber": 1,
+      "sceneNumber": 1,
+      "sceneTitle": "Promptly Acknowledge Guests",
+      "sceneType": "multiple_choice",
+      "isTimed": false,
+      "scenario": "Two people are seated at a 4-top. They are clearly waiting for 2 more to arrive.",
+      "prompt": "When do you go to the table?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Wait for the others to arrive so you don’t have to repeat yourself.",
+          "tipMeterChange": -6,
+          "tipMeterLabel": "LOSS",
+          "isBestChoice": false,
+          "feedback": "You missed a Step of Service.",
+          "coachingFlag": "Missed Step of Service"
+        },
+        {
+          "id": "B",
+          "text": "Acknowledge the two with eye contact and a smile as you walk to another table.",
+          "tipMeterChange": 2,
+          "tipMeterLabel": "SMALL GAIN",
+          "isBestChoice": false,
+          "feedback": "Acceptable acknowledgement, but incomplete service.",
+          "coachingFlag": "Incomplete acknowledgement"
+        },
+        {
+          "id": "C",
+          "text": "Promptly acknowledge guests warmly with a smile and ask if they want a drink or something to nibble on while they are waiting.",
+          "tipMeterChange": 10,
+          "tipMeterLabel": "HIGH IMPACT",
+          "isBestChoice": true,
+          "feedback": "You performed Initial Contact at a strong level.",
+          "reinforcement": "Great servers never let guests feel forgotten.",
+          "notebookUnlock": "Perform All Steps of Service: Strong openings create trust early."
+        }
+      ],
+      "bestChoice": "C",
+      "mechanic": {
+        "whatYouDo": "You greet promptly and offer help",
+        "guestFeels": "Guests feel noticed and cared for",
+        "result": "Trust rises, spending begins sooner, and tip potential increases."
+      }
+    },
+    {
+      "id": "standard-01-002",
+      "shiftNumber": 1,
+      "sceneNumber": 2,
+      "sceneTitle": "Set the Table Tone",
+      "sceneType": "multiple_choice",
+      "isTimed": false,
+      "scenario": "A family sits down during a rush and starts scanning the dining room for help.",
+      "prompt": "What opening line best protects the guest experience?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "I’ll be back when things slow down.",
+          "tipMeterChange": -8,
+          "tipMeterLabel": "LOSS",
+          "isBestChoice": false,
+          "feedback": "The table heard that they are not the priority.",
+          "coachingFlag": "Rushed opening"
+        },
+        {
+          "id": "B",
+          "text": "Welcome in. I’m taking care of you tonight and I’ll get drinks started right away.",
+          "tipMeterChange": 8,
+          "tipMeterLabel": "STRONG GAIN",
+          "isBestChoice": true,
+          "feedback": "You established ownership and reduced uncertainty.",
+          "reinforcement": "A confident opening lowers guest anxiety.",
+          "notebookUnlock": "Own the Table: Guests relax when they know who is caring for them."
+        },
+        {
+          "id": "C",
+          "text": "Do you know what you want?",
+          "tipMeterChange": -2,
+          "tipMeterLabel": "SMALL LOSS",
+          "isBestChoice": false,
+          "feedback": "You skipped the welcome and made the interaction feel transactional.",
+          "coachingFlag": "Transactional language"
+        }
+      ],
+      "bestChoice": "B"
+    },
+    {
+      "id": "standard-01-003",
+      "shiftNumber": 1,
+      "sceneNumber": 3,
+      "sceneTitle": "Offer Drinks Early",
+      "sceneType": "multiple_choice",
+      "isTimed": false,
+      "scenario": "Two guests say they are still waiting on friends but they have opened the drink menu.",
+      "prompt": "What do you do next?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Offer to start drinks or a small appetizer while they wait.",
+          "tipMeterChange": 9,
+          "tipMeterLabel": "HIGH IMPACT",
+          "isBestChoice": true,
+          "feedback": "You created value before the full party arrived.",
+          "reinforcement": "Great service starts momentum without pressure.",
+          "notebookUnlock": "Start Spending Sooner: Early offers can improve the guest experience and the check average."
+        },
+        {
+          "id": "B",
+          "text": "Leave them alone until the entire party arrives.",
+          "tipMeterChange": -5,
+          "tipMeterLabel": "LOSS",
+          "isBestChoice": false,
+          "feedback": "The table remained idle and unattended.",
+          "coachingFlag": "Delayed revenue moment"
+        },
+        {
+          "id": "C",
+          "text": "Drop menus silently and keep walking.",
+          "tipMeterChange": -3,
+          "tipMeterLabel": "SMALL LOSS",
+          "isBestChoice": false,
+          "feedback": "The action was useful, but the connection was missing.",
+          "coachingFlag": "Low warmth"
+        }
+      ],
+      "bestChoice": "A"
+    },
+    {
+      "id": "standard-01-004",
+      "shiftNumber": 1,
+      "sceneNumber": 4,
+      "sceneTitle": "Recover a Slow Greet",
+      "sceneType": "multiple_choice",
+      "isTimed": false,
+      "scenario": "You realize a table has waited longer than ideal before first contact.",
+      "prompt": "What is the strongest recovery?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Avoid mentioning it and act like nothing happened.",
+          "tipMeterChange": -6,
+          "tipMeterLabel": "LOSS",
+          "isBestChoice": false,
+          "feedback": "Ignoring the delay can make frustration grow.",
+          "coachingFlag": "Missed recovery"
+        },
+        {
+          "id": "B",
+          "text": "Apologize briefly, thank them for waiting, and immediately offer drinks.",
+          "tipMeterChange": 7,
+          "tipMeterLabel": "STRONG GAIN",
+          "isBestChoice": true,
+          "feedback": "You owned the delay and moved the experience forward.",
+          "reinforcement": "Short, sincere recovery protects trust.",
+          "notebookUnlock": "Recover Fast: Guests forgive delays faster when you acknowledge and act."
+        },
+        {
+          "id": "C",
+          "text": "Explain that the kitchen is backed up before taking drink orders.",
+          "tipMeterChange": -4,
+          "tipMeterLabel": "SMALL LOSS",
+          "isBestChoice": false,
+          "feedback": "You shifted attention to operational problems instead of guest care.",
+          "coachingFlag": "Excuse language"
+        }
+      ],
+      "bestChoice": "B"
+    },
+    {
+      "id": "standard-01-005",
+      "shiftNumber": 1,
+      "sceneNumber": 5,
+      "sceneTitle": "Read the Waiting Guests",
+      "sceneType": "multiple_choice",
+      "isTimed": false,
+      "scenario": "One guest is checking their phone while another keeps looking toward the host stand.",
+      "prompt": "Which response best acknowledges the situation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Tell them their friends are late and walk away.",
+          "tipMeterChange": -7,
+          "tipMeterLabel": "LOSS",
+          "isBestChoice": false,
+          "feedback": "The comment may feel judgmental and does not help the table.",
+          "coachingFlag": "Insensitive language"
+        },
+        {
+          "id": "B",
+          "text": "Offer water and say you can get anything started while they wait.",
+          "tipMeterChange": 6,
+          "tipMeterLabel": "SOLID GAIN",
+          "isBestChoice": true,
+          "feedback": "You noticed the wait and made it easier.",
+          "reinforcement": "Anticipation turns waiting time into service time."
+        },
+        {
+          "id": "C",
+          "text": "Ask them to wave you down when everyone arrives.",
+          "tipMeterChange": -2,
+          "tipMeterLabel": "SMALL LOSS",
+          "isBestChoice": false,
+          "feedback": "You put the service responsibility back on the guest.",
+          "coachingFlag": "Passive service"
+        }
+      ],
+      "bestChoice": "B"
+    },
+    {
+      "id": "standard-01-006",
+      "shiftNumber": 1,
+      "sceneNumber": 6,
+      "sceneTitle": "Thirty-Second First Contact",
+      "sceneType": "multiple_choice",
+      "isTimed": true,
+      "timerSeconds": 30,
+      "timeoutChoice": "TIMEOUT",
+      "scenario": "A new table is seated while you are closing out another check. You have a short window to decide how to acknowledge them.",
+      "prompt": "Choose before the timer runs out.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Make eye contact, smile, and say you will be right with them while finishing the closeout.",
+          "tipMeterChange": 5,
+          "tipMeterLabel": "SOLID GAIN",
+          "isBestChoice": true,
+          "feedback": "You acknowledged the table quickly without abandoning the active guest.",
+          "reinforcement": "Fast acknowledgement can be brief and still meaningful.",
+          "notebookUnlock": "Signal Awareness: Guests notice when you notice them."
+        },
+        {
+          "id": "B",
+          "text": "Finish the closeout completely before looking over.",
+          "tipMeterChange": -5,
+          "tipMeterLabel": "LOSS",
+          "isBestChoice": false,
+          "feedback": "The new table was left wondering if anyone saw them.",
+          "coachingFlag": "Delayed acknowledgement"
+        },
+        {
+          "id": "C",
+          "text": "Interrupt the payment immediately and leave the current guest waiting.",
+          "tipMeterChange": -3,
+          "tipMeterLabel": "SMALL LOSS",
+          "isBestChoice": false,
+          "feedback": "You helped one table by creating a new service problem for another.",
+          "coachingFlag": "Poor prioritization"
+        },
+        {
+          "id": "TIMEOUT",
+          "text": "No decision before the table waits too long.",
+          "tipMeterChange": -10,
+          "tipMeterLabel": "TIMEOUT LOSS",
+          "isBestChoice": false,
+          "feedback": "The opportunity for prompt Initial Contact passed.",
+          "coachingFlag": "Timeout on first contact"
+        }
+      ],
+      "bestChoice": "A"
+    }
+  ]
+}
